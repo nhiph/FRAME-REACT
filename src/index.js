@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// boostrap
+import 'bootstrap/dist/css/bootstrap.css'
+// Cau hinh Redux
+import {Provider} from 'react-redux';
+import {store} from './redux/ConfigStore';
+
+// thu vien ant.design
+import 'antd/dist/antd.css';
+
+// thu vien react-botstrap
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}>
+     <App />
+  </Provider>,
   document.getElementById('root')
 );
 
