@@ -1,0 +1,1 @@
+export const API_ACTION_NAME = 'API_ACTION_NAME'
