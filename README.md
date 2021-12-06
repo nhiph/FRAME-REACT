@@ -1,7 +1,6 @@
 Link demo 
 http://13.214.16.222:8000/
-
-![image](https://user-images.githubusercontent.com/76526952/144870476-b39bf84d-9961-4f95-9043-74eb1a890f50.png)
+![image](https://user-images.githubusercontent.com/76526952/144870765-59a3984b-f455-429c-b860-12cd46c453ad.png)
 
 
 # Getting Started with Create React App
